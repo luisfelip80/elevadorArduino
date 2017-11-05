@@ -1,4 +1,13 @@
-  
+//Código feito por Luis Felipe Miranda da Silva
+// Elevador Simples
+
+//  Corrigir erro, assim que alguém clica em um andar, o elevador não pode aceitar
+// outro comando enquando não chegar no andar desejado caso o novo comando seja de um
+// andar inferior ao primeiro, caso esteja no meio do trajeto, a cabine deve parar por alguns segundos, e depois
+// seguir.
+
+// Melhorem o código, esse é apenas uma base.
+
 #include <Stepper.h>  // Adicionar a biblioteca para que o arduino possa se comunicar com o motor.
 int r, ab, b, i, g, l; // declaraçao de variaveis
 int andar; // declaraçao de variaveis. Variavel onde vao ser armazenados os valores do andares.
